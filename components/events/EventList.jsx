@@ -1,8 +1,10 @@
 import EventItem from "./EventItem";
 
+import styles from "./EventList.module.css";
+
 export default function EventList({ items }) {
   return (
-    <ul>
+    <ul className={styles.list}>
       {items.map(({ title, image, date, location, id }) => (
         <EventItem
           key={id}
