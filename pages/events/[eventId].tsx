@@ -4,6 +4,8 @@ import { Fragment } from 'react';
 import EventContent from '../../components/event-detail/EventContent';
 import EventLogistics from '../../components/event-detail/EventLogistics';
 import EventSummary from '../../components/event-detail/EventSummary';
+import Button from '../../components/ui/Button';
+import ErrorAlert from '../../components/ui/ErrorAlert';
 import { getEventById } from '../../dummy-data';
 
 export default function EventDetailPage(): JSX.Element {
@@ -12,7 +14,14 @@ export default function EventDetailPage(): JSX.Element {
   const event = getEventById(eventId);
 
   if (!event) {
-    return <p>No event found</p>;
+    return (
+      <div className="center">
+        <ErrorAlert>
+          <p>No event found</p>
+        </ErrorAlert>
+        <Button link="/events">Show all events</Button>
+      </div>
+    );
   }
 
   return (
