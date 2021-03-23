@@ -7,9 +7,7 @@ interface ILogisticsItem {
   icon(): JSX.Element;
 }
 
-function LogisticsItem(props: ILogisticsItem): JSX.Element {
-  const { icon: Icon, children } = props;
-
+function LogisticsItem({ icon: Icon, children }: ILogisticsItem): JSX.Element {
   return (
     <li className={classes.item}>
       <span className={classes.icon}>
