@@ -22,5 +22,9 @@ export default function Button({
     );
   }
 
-  return <button onClick={onClick}>{children}</button>;
+  return (
+    <button onClick={onClick} className={styles.btn}>
+      {children}
+    </button>
+  );
 }
