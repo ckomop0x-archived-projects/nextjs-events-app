@@ -7,3 +7,5 @@ schema.json
 src/types/
 static
 .next
+tsconfig.json
+dummy-data.js
