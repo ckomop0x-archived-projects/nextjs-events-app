@@ -9,7 +9,9 @@
   </a>
 </p>
 
-> NextJS Project to refresh my NextJS knowledge. Based on https://www.udemy.com/course/nextjs-react-the-complete-guide. I've added TypeScript, some linters, formatters, hooks and tests
+> NextJS Project to refresh my NextJS knowledge.
+> Based on https://www.udemy.com/course/nextjs-react-the-complete-guide.
+> I've added TypeScript, some linters, formatters, hooks and tests
 
 ## Install
 
@@ -31,7 +33,7 @@ yarn run test
 
 ## Author
 
-👤 **Pavel Klochvko**
+👤 **Pavel Klochkov**
 
 - Website: [ckomop0x.me](https://ckomop0x.me)
 - Twitter: [@ckomop0x](https://twitter.com/ckomop0x)
