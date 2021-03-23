@@ -5,7 +5,7 @@
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
   <a href="https://twitter.com/ckomop0x\" target="_blank">
-    <img alt="Twitter: ckomop0x\" src="https://img.shields.io/twitter/follow/ckomop0x\.svg?style=social" />
+    <img alt="Twitter: ckomop0x" src="https://img.shields.io/twitter/follow/ckomop0x\.svg?style=social" />
   </a>
 </p>
 
@@ -33,8 +33,8 @@ yarn run test
 
 👤 **Pavel Klochvko**
 
-- Website: ckomop0x.me
-- Twitter: [@ckomop0x\](https://twitter.com/ckomop0x\)
+- Website: [ckomop0x.me](https://ckomop0x.me)
+- Twitter: [@ckomop0x](https://twitter.com/ckomop0x)
 - Github: [@ckomop0x](https://github.com/ckomop0x)
 - LinkedIn: [@ckomop0x](https://linkedin.com/in/ckomop0x)
 
