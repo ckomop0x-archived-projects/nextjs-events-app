@@ -4,7 +4,11 @@ import Button from '../../ui/Button';
 
 import styles from './EventsSearch.module.css';
 
-export default function EventsSearch(): JSX.Element {
+interface IEventsSearch {
+  onSearch({ year, month }: { year?: string; month?: string }): void;
+}
+
+export default function EventsSearch({ onSearch }: IEventsSearch): JSX.Element {
   const yearInputRef = useRef<HTMLSelectElement | null>(null);
   const monthInputRef = useRef<HTMLSelectElement | null>(null);
 
@@ -13,8 +17,10 @@ export default function EventsSearch(): JSX.Element {
   ): void => {
     event.preventDefault();
 
-    // const selectedYear = yearInputRef?.current?.value;
-    // const selectedMonth = monthInputRef?.current?.value;
+    const selectedYear = yearInputRef?.current?.value;
+    const selectedMonth = monthInputRef?.current?.value;
+
+    onSearch({ year: selectedYear, month: selectedMonth });
   };
 
   return (
