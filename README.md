@@ -9,9 +9,9 @@
   </a>
 </p>
 
-> NextJS Project to refresh my NextJS knowledge.
-> Based on https://www.udemy.com/course/nextjs-react-the-complete-guide.
-> I've added TypeScript, some linters, formatters, hooks and tests
+NextJS Project to refresh my NextJS knowledge.
+Based on https://www.udemy.com/course/nextjs-react-the-complete-guide.
+I've added TypeScript, some linters, formatters, hooks and tests
 
 ## Install
 
