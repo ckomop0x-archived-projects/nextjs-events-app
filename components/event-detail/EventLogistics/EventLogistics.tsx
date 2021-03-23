@@ -1,8 +1,8 @@
-import AddressIcon from '../icons/AddressIcon';
-import DateIcon from '../icons/DateIcon';
+import AddressIcon from '../../icons/AddressIcon';
+import DateIcon from '../../icons/DateIcon';
+import LogisticsItem from '../LogisticsItem';
 
 import styles from './EventLogistics.module.css';
-import LogisticsItem from './LogisticsItem';
 
 interface IEventLogistics {
   date: string;

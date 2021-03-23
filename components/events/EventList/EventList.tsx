@@ -1,6 +1,6 @@
-import { IEvent } from '../../pages/events';
+import { IEvent } from '../../../pages/events';
+import EventItem from '../EventItem';
 
-import EventItem from './EventItem';
 import styles from './EventList.module.css';
 
 interface IEventList {

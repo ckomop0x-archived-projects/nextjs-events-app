@@ -1,7 +1,7 @@
-import AddressIcon from '../icons/AddressIcon';
-import ArrowRightIcon from '../icons/ArrowRightIcon';
-import DateIcon from '../icons/DateIcon';
-import Button from '../ui/Button';
+import AddressIcon from '../../icons/AddressIcon';
+import ArrowRightIcon from '../../icons/ArrowRightIcon';
+import DateIcon from '../../icons/DateIcon';
+import Button from '../../ui/Button';
 
 import styles from './EventItem.module.css';
 
