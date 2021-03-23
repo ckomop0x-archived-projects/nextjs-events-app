@@ -1,8 +1,8 @@
-import Link from "next/link";
+import Link from 'next/link';
 
-import styles from "./MainHeader.module.css";
+import styles from './MainHeader.module.css';
 
-export default function MainHeader() {
+export default function MainHeader(): JSX.Element {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>

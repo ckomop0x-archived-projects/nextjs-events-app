@@ -1,8 +1,13 @@
-import EventItem from "./EventItem";
+import { IEvent } from '../../pages/events';
 
-import styles from "./EventList.module.css";
+import EventItem from './EventItem';
+import styles from './EventList.module.css';
 
-export default function EventList({ items }) {
+interface IEventList {
+  items: IEvent[];
+}
+
+export default function EventList({ items }: IEventList): JSX.Element {
   return (
     <ul className={styles.list}>
       {items.map(({ title, image, date, location, id }) => (

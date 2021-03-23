@@ -6,7 +6,7 @@ import styles from './Button.module.css';
 interface IButton {
   link?: string;
   children: string | React.ReactNode | React.ReactNodeArray;
-  onClick(): void;
+  onClick?: () => void;
 }
 
 export default function Button({

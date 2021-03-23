@@ -1,6 +1,8 @@
 import Button from '../ui/Button';
 
 export default function EventsSearch(): JSX.Element {
+  const onClick = () => {};
+
   return (
     <form>
       <div>
@@ -29,7 +31,7 @@ export default function EventsSearch(): JSX.Element {
           </select>
         </div>
       </div>
-      <Button>Find events</Button>
+      <Button onClick={onClick}>Find events</Button>
     </form>
   );
 }

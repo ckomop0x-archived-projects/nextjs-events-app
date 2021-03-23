@@ -1,6 +1,6 @@
 {
   "name": "nextjs-events-app",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +9,7 @@
     "test": "jest --env=jsdom --ci --verbose --passWithNoTests",
     "pretty": "prettier --check \"./**/*.{ts,tsx,js,jsx,json,md}\"",
     "check-ts": "tsc",
-    "lint": "eslint \"./src/**/*.{ts,tsx,js}\" --fix"
+    "lint": "eslint \"./**/*.{ts,tsx,jsx}\" --fix"
   },
   "husky": {
     "hooks": {

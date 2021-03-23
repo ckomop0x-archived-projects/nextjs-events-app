@@ -1,5 +1,5 @@
 module.exports = {
-  ignorePatterns: ['.eslintrc.js', 'gatsby-browser.js', 'gatsby-config.js'],
+  ignorePatterns: ['.eslintrc.js', 'jest.config.js', 'loadershim.js'],
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
@@ -20,7 +20,7 @@ module.exports = {
   },
   settings: {
     'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx'],
+      '@typescript-eslint/parser': ['.ts', '.tsx', '.jsx'],
     },
     'import/resolver': {
       typescript: {},

@@ -1,16 +1,31 @@
-import styles from "./EventItem.module.css";
-import Button from "../ui/Button";
-import DateIcon from "../icons/DateIcon";
-import AddressIcon from "../icons/AddressIcon";
-import ArrowRightIcon from "../icons/ArrowRightIcon";
+import AddressIcon from '../icons/AddressIcon';
+import ArrowRightIcon from '../icons/ArrowRightIcon';
+import DateIcon from '../icons/DateIcon';
+import Button from '../ui/Button';
 
-export default function EventItem({ title, image, date, location, id }) {
-  const humanReadableDate = new Date(date).toLocaleDateString("en-US", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
+import styles from './EventItem.module.css';
+
+interface IEventItem {
+  date: string;
+  title: string;
+  location: string;
+  image: string;
+  id: string;
+}
+
+export default function EventItem({
+  title,
+  image,
+  date,
+  location,
+  id,
+}: IEventItem): JSX.Element {
+  const humanReadableDate = new Date(date).toLocaleDateString('en-US', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
   });
-  const formattedAddress = location.replace(", ", "\n");
+  const formattedAddress = location.replace(', ', '\n');
   const exploreLink = `/events/${id}`;
 
   return (
