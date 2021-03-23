@@ -8,6 +8,7 @@ export default function EventSummary({ title }: IEventSummary): JSX.Element {
   return (
     <section className={styles.summary}>
       <h1>{title}</h1>
+      <p>The Event Summary</p>
     </section>
   );
 }
